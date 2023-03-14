@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="header">
             <nav>
-                <img className='logo' src={require("../../assets/img/logo.png")} alt="" />
+                <img className='logo' src={require("../../../assets/img/logo.png")} alt="" />
                 <ul>
                     <Link to="/"><li>About me</li></Link>
                     <Link to="/"><li>Projects</li></Link>
