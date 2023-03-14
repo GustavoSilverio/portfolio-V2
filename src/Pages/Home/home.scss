@@ -27,10 +27,6 @@
     font-weight: 300;
 }
 
-.sobre-txt span {
-    color: #FF005C;
-}
-
 .sobre-txt h2 {
     margin-bottom: 10px;
     font-size: 2rem;
@@ -56,7 +52,7 @@
     height: auto;
     padding: 1rem;
     font-size: 20px;
-    background-color: transparent;
+    background: linear-gradient(180deg, #FF005C 0%, #C90048 100%);;
     border: 1px solid #FF005C;
     border-radius: 5px;
     color: #fff;
@@ -65,7 +61,7 @@
     font-weight: 500;
 
     &:hover {
-        background-color: #FF005C;
+        background-color: transparent;
     }
 }
 

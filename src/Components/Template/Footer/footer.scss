@@ -2,4 +2,21 @@
     bottom: 0;
     position: relative;
     margin-top: 4rem;
+    color: #fff;
+    height: 3rem;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer svg path {
+    height: auto;
+    width: 3rem;
 }
