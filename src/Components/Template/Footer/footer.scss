@@ -1,6 +1,6 @@
 .footer {
     bottom: 0;
-    position: relative;
+    position: fixed;
     margin-top: 4rem;
     color: #fff;
     height: 3rem;
@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .footer p {
@@ -19,4 +21,8 @@
 .footer svg path {
     height: auto;
     width: 3rem;
+}
+
+.footer svg {
+    margin: 0 5px;
 }

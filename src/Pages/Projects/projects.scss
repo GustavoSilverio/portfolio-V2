@@ -1,0 +1,15 @@
+.cards {
+    animation: fade .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+    gap: 1rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}

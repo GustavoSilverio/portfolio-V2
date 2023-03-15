@@ -4,10 +4,10 @@
     border-radius: 5px;
 }
 
-
 .home {
     width: 80%;
-    margin: 0 auto;
+    margin: 10vh auto;
+    animation: fade .3s ease-in-out;
 }
 
 .sobre {
@@ -79,3 +79,13 @@
         top: 0;
     }
 }
+
+@keyframes fade {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
